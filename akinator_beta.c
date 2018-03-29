@@ -105,10 +105,6 @@ void akinate(struct Node * tree)
     root = tree;
     cur = tree;
 
-
-
-
-
     while(exit_flag == 0)
     {
         if(is_question(cur) == 1)               //checking if node's text is question
